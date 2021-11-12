@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>No Counter-Attacks</name>
+	<author>pb3n</author>
+	<supportedVersions>
+	<li>1.3</li>
+	</supportedVersions>
+	<packageId>pb3n.NoCounterAttacks</packageId>
+	<description>.</description>
+</ModMetaData>
