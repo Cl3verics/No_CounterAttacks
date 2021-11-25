@@ -25,7 +25,7 @@ namespace NoCounterAttacks
     {
         private static void Postfix(ref Job __result, Pawn pawn)
         {
-            if (pawn.HostileTo(Faction.OfPlayer) && pawn.GetLord()?.LordJob is LordJob_DefendBase)
+            if (pawn.HostileTo(Faction.OfPlayer) && (pawn.GetLord()?.LordJob is LordJob_DefendBase || pawn.Map.ParentFaction == pawn.Faction && pawn.GetLord()?.LordJob is LordJob_AssaultColony))
             {
                 if (__result != null)
                 {
@@ -49,7 +49,7 @@ namespace NoCounterAttacks
     {
         private static void Postfix(ref Job __result, Pawn pawn)
         {
-            if (pawn.HostileTo(Faction.OfPlayer) && pawn.GetLord()?.LordJob is LordJob_DefendBase)
+            if (pawn.HostileTo(Faction.OfPlayer) && (pawn.GetLord()?.LordJob is LordJob_DefendBase || pawn.Map.ParentFaction == pawn.Faction && pawn.GetLord()?.LordJob is LordJob_AssaultColony))
             {
                 if (__result != null)
                 {

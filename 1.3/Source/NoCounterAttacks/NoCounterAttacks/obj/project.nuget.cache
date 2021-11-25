@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fd6HkTsh6rm5zYJWTWsr5psFTsah6+ynARFIrTpJzZzebdq89OiMO/Wgq4IqQc5YmJGlE8IbkoBycMzCMJJqjw==",
+  "dgSpecHash": "xs2PXln5ceJsfdx1enA4qsf0RyOiVpgkfxTnLD7T7/maaJxtDmNUWZOK+gUGwlRhs1BcctVvCQZwfZPmGLwzQQ==",
   "success": true,
-  "projectFilePath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\No_CounterAttacks\\1.3\\Source\\NoCounterAttacks\\NoCounterAttacks\\NoCounterAttacks.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\No_CounterAttacks\\1.3\\Source\\NoCounterAttacks\\NoCounterAttacks\\NoCounterAttacks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3179-beta\\krafs.rimworld.ref.1.3.3179-beta.nupkg.sha512",
     "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.1.1\\lib.harmony.2.1.1.nupkg.sha512"
