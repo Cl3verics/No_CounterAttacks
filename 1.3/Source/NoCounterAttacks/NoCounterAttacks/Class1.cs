@@ -30,7 +30,7 @@ namespace NoCounterAttacks
                 if (__result != null)
                 {
                     var distance = NearestDistanceFromBase(__result.targetA.Cell, pawn);
-                    if (distance > 10)
+                    if (distance > 5)
                     {
                         __result = null;
                     }
